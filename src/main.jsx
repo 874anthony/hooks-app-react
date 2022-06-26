@@ -8,12 +8,15 @@ import ReactDOM from 'react-dom/client';
 // import { FormCustomHook } from './02-useEFfect/FormCustomHook';
 // import { MultipleCustomHooks } from './03-examples/MultipleCustomHooks';
 // import { FocusScreen } from './04-useRef/FocusScreen';
-import { Memorize } from './06-memo/Memorize';
+// import { Memorize } from './06-memo/Memorize';
+import { TodoApp } from './08-useReducer/TodoApp';
+
+// import './08-useReducer/intro-reducer';
 
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Memorize />
+    <TodoApp />
   </React.StrictMode>
 );
